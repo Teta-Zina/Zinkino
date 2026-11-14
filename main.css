@@ -1,0 +1,187 @@
+main .hero, main .us{
+    background-color: var(--color-back2);
+    margin-top: 5px;
+}
+
+main .hero .herocontent, main .hero .heroright{
+    width: 50%
+}
+
+main .hero .heroright{
+    position: relative;
+}
+
+main .hero .heroimg{
+    width: 100%;
+    height: 100%;
+}
+
+main .hero .herogradient{
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(to right, var(--color-back2) 0%, transparent 100%);
+    pointer-events: none;
+}
+
+main .hero .herocontent{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+main .hero .herocontent p, main .hero .herocontent h2{
+    display: block;
+}
+
+main .hero .herocontent .toptext, main .hero .herocontent .bottomtext{
+    font-size: calc(var(--size-p) - 0.4rem);
+}
+
+main .hero .herocontent .toptext{
+    color: var(--color-font2);
+}
+
+main .hero .herocontent h2{
+    font-size: calc(var(--size-h) + 0.5rem);
+    height: fit-content;
+}
+
+main .hero .herocontent .bottomtext{
+    width: 80%;
+}
+
+main .hero .herocontent .but{
+    justify-content: space-between;
+    padding: 10px 10px;
+    margin-top: auto;
+    width: 200px;
+    }
+
+.popmenu{
+    flex-wrap: wrap;
+}
+
+main .popmenutext{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+main .popmenutext h2{
+    font-size: var(--size-h);
+}
+
+main .popmenutext a{
+    color: var(--color-font2);
+    font-size: var(--size-but);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 190px;
+}
+
+main .popmenutext a:hover{
+    color: var(--color-font1);
+}
+
+.menuitems{
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuitems .menuitem{
+    background-color: var(--color-back3);
+    width: 23%;
+    min-width: 170px;
+    height: 31%;
+    border-radius: 10px;
+}
+
+.menuitems .menuitem figure{
+    height: 100%;
+}
+
+.menuitems .menuitem img{
+    display: block;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px; 
+}
+
+.menuitems .menuitem figcaption{
+    padding: 10px 15px 0px;
+}
+
+.menuitems .menuitem figcaption h3, .menuitems .menuitem figcaption .but{
+    font-size: var(--size-item);
+}
+
+.menuitems .menuitem figcaption p{
+    font-size: calc(var(--size-item) - 0.325rem);
+    opacity: 0.5;
+    margin: 10px 0px;
+}
+
+.menuitems .menuitem figcaption .but{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.us .conteiner{
+    margin: 20px 0px;
+    padding: 0px;
+}
+
+.us img{
+    width: 43%;
+    border-radius: 10px;
+}
+
+.us .uscontent{
+    height: 100%;
+    width: 50%;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.us .uscontent > *{
+    width: 100%;
+    height: fit-content;
+}
+
+.us .uscontent h2{
+    font-size: var(--size-h);
+}
+
+.us .uscontent > p{
+    font-size: var(--size-p);
+    text-align: justify;
+}
+
+.us .uscontent .prem{
+    display: flex;
+    width: 30%;
+}
+
+.us .uscontent .prem svg{
+    width: 20%;
+    height: auto;
+    margin-right: 10%;
+    color: var(--color-font2);
+}
+
+.us .uscontent .prem p{
+    width: 70%;
+    font-size: calc(var(--size-p) - 0.5rem);
+    display: flex;
+    align-items: center;
+}
