@@ -1,0 +1,106 @@
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo .logoicon{
+    height: var(--size-svg);
+    width: var(--size-svg);
+    margin-right: 5px;
+    fill: var(--color-font1);
+}
+
+nav{
+    display: flex;
+    align-items: center;    
+}
+
+nav a{
+    color:  var(--color-font1);
+    font-size: var(--size-but);
+    margin: 0px 15px;
+}
+
+nav a.active{
+    border-bottom: 5px solid var(--color-font2);
+    border-radius: 5px;
+}
+
+nav a:hover{
+    font-weight: 700;
+}
+
+.but{ 
+    display: flex; 
+    align-items: center; 
+    text-decoration: none;
+    background-color: var(--color-font2);
+    color: var(--color-back1);
+    padding: 10px 30px;
+    border-color: var(--color-font2);
+    border-radius: 13px;
+    font-size: var(--size-but);
+}
+
+.but:hover{
+    background-color: var(--color-font1);
+    border-color: var(--color-font1);
+}
+
+footer{
+    background-color: var(--color-font1);
+    color: var(--color-back1);
+}
+
+footer .logo{
+    flex-wrap: wrap;
+    width: 216px;
+}
+
+.logo h2{
+    font-size: var(--size-h);
+}
+
+footer .logo .logoicon{
+    fill: var(--color-back1);
+}
+
+footer .logo p{
+    font-size: 0.75rem;
+    margin-left: 45px;
+}
+
+footer nav a{
+    color: var(--color-back1);
+}
+
+footer nav a.active{
+    border: none;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+}
+
+.social a{
+    margin: 0px 10px;
+}
+
+.social a svg{
+    width: calc(var(--size-svg) - 10px);
+    height: calc(var(--size-svg) - 10px);
+    fill: var(--color-back1);
+    transition: 0.3s all ease;
+}
+
+.social a svg:hover{
+    fill: var(--color-back2)
+}
+
+.copy{
+    font-size: 0.5rem;
+    opacity: 0.5;
+    text-align: center;
+    padding: 25px 0px;
+}
